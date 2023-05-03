@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="./style.css">
+    <title>your phone</title>
+</head>
+<body>
+   <!--navigation bar-->
+    <nav>  
+        <img src="pic/bars.png"height="30" width="30" id="bars">
+        <div class="logo"> 
+            <img src="pic/logo.jpg" height="30" width="30">
+            <h4> Your phone</h4>
+        </div>
+        <ul class="nav-items" class="active"> 
+        <li class="nav-items" >
+        <a href="#" class="nav.link"> Home</a>
+      </li>
+      <li class="nav-items" >
+        <a href="#advantages" class="nav.link"> advantages</a>
+      </li>
+      <li class="nav-items" >
+        <a href="#phones" class="nav.link"> new items</a>
+      </li>
+    </ul>
+    </nav>
+    <!-- main section-->
+ <section class="main">
+    <div class="main-section">
+        <div class=" content">
+            <h4>Buy as you like</h4>
+            <h2>Discover new mobiles with good prices and quality</h2>
+            <p>you can find during shopping <span> safety and quality</span> 
+            </p>
+            <button class="btn">
+                <a href="#advantages" >Know more </a>
+            </button>
+        </div>
+        <div class=" main-image">
+            <img src="pic/shopping..jpg" height="250" width="300"> 
+        </div>
+    </div>
+</section>
+<!--advantages of section-->
+<section class="advantages" id="advantages">
+    <div class ="advantages-section">
+        <h4>why we are best choice for you?</h4>
+        <div class="qualities">
+            <div class="quality">
+                <img src="pic/shipping.png" height="40" width="40">
+                <h3> Fast delivery</h3>
+                <p>your order will be delivered through 5 days</p>
+            </div>
+            <div class="quality">
+                <img src="pic/safety.jpg" height="40" width="40">
+                <h3> Safety & privacy </h3>
+                <p>safety electronic paying way</p>
+            </div>
+            <div class="quality">
+                <img src="pic/Diveristy.png" height="40" width="40">
+                <h3> Diversity of items</h3>
+                <p> you can find new items</p>
+            </div>
+            <div class="quality">
+                <img src="pic/Technical support.png" height="40" width="40">
+                <h3> Technical support</h3>
+                <p>24 service to solve any problem</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- new phones-->
+ <section class="new-phones" id="phones">
+    <div class="phones section">
+        <h4>
+            New added phones
+        </h4>
+        <div class="phones">
+            <div class="phone">
+                <img src="pic/samsung galaxy.webp" height="100" width="100"> 
+                <h3> Samsung Galaxy S23</h3>   
+            </div>
+            <div class="phone">
+                <img src="pic/shawmi.webp" height="100" width="100"> 
+                <h3> Shawmi redmy note 12+</h3>   
+            </div>
+            <div class="phone">
+                <img src="pic/iphone.webp" height="100" width="100"> 
+                <h3> iphone 14 pro max</h3>   
+            </div>
+            <div class="phone">
+                <img src="pic/Realmy.webp" height="100" width="100"> 
+                <h3>Realmi 9i Dual </h3>   
+            </div>
+            <div class="phone">
+                <img src="pic/Relmi 7.webp" height="100" width="100"> 
+                <h3>Realmi 7 pro </h3>   
+            </div>
+            <div class="phone">
+                <img src="pic/galaxy A53.webp" height="100" width="100"> 
+                <h3>Samsung galaxy A53 </h3>   
+            </div>
+            <div class="phone">
+                <img src="pic/samsung galaxy.webp" height="100" width="100"> 
+                <h3>Smart Samsung Galaxy A73</h3>   
+            </div>
+            <div class="phone">
+                <img src="pic/note 11s.webp" height="100" width="100"> 
+                <h3>Redmi note 11S </h3>   
+            </div>
+            <div class="phone">
+                <img src="pic/samsung s21.webp" height="100" width="100"> 
+                <h3>Samsung Galaxy S21 </h3>   
+            </div>
+        </div>
+        <button class="btn">
+            <a href="https://www.techradar.com/news/upcoming-phones-2023">
+                Browse all phones</a>
+        </button>
+    </div>
+ </section>
+ <!-- footer section-->
+ <footer>
+    <div class="footer-section">
+        <p> All rights are save</p>
+    </div>
+    <div class="social-media">
+        <img src="pic/facebook.png" height="30" width="30">
+        <img src="pic/insta.jpg" height ="30" width="30">
+        <img src="pic/twitter.png" height="30" width="30">
+    </div>
+ </footer>
+<script src="script.js"></script>
+
+</body>
+</html>
